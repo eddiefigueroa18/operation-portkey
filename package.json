@@ -1,0 +1,19 @@
+{
+  "name": "operation-portkey",
+  "version": "1.0.0",
+  "description": "A Simple React Portfolio Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiefigueroa18/operation-portkey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddiefigueroa18/operation-portkey/issues"
+  },
+  "homepage": "https://github.com/eddiefigueroa18/operation-portkey#readme"
+}
