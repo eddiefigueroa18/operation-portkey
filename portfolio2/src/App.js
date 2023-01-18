@@ -2,10 +2,10 @@
 // import './App.css';
 import react from "react";
 
-import navbar from "../components/navbar";
-import header from "../components/header";
-import aboutMe from "../components/pages/aboutMe";
-import footer from "../components/footer";
+import navbar from "../src/components/navbar";
+import header from "../src/components/header";
+import aboutMe from "../src/components/pages/about";
+import footer from "../src/components/footer";
 
 function App () {
     return (
