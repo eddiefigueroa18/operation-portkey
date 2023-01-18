@@ -1,5 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import react from "react";
+
+import navbar from "../components/navbar";
+import header from "../components/header";
+import aboutMe from "../components/pages/aboutMe";
+import footer from "../components/footer";
+
+function App () {
+    return (
+        <div className="Application">
+            <navbar />
+            <header />
+            <aboutMe />
+            <footer />
+        </div>
+    );
+}
+
+
+
 
 // function App() {
 //   return (
