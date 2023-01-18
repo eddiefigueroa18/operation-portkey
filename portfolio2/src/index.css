@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +12,153 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+/* .body-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5%;
+  margin-top: auto;
+  background-image: url("../src/assets/mountain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ */
+
+:root {
+  --vscode: #252934;
+  --turq: rgb(27, 141, 141);
+  --blueish: #24417e;
+}
+
+
+
+
+
+
+
+
+
+/* Header Section */
+.headerSection {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.headerList {
+  list-style-type: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+/* AboutMe Section */
+/* .aboutMeSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.aboutMeHeader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.aboutMeSelfie {
+  padding: 30px;
+  height: 275px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-image: url("../src/assets/Selfie.jpg");
+  box-shadow: 0 0 10px var(--vscode);
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+
+.HelloWelcome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.IntroParagaph {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* Footer section  */
+
+.flex-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact-links:hover {
+  box-shadow: 0 0 5px var(--vscode);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+  padding: 6px;
+  margin: 6px;
+  border-radius: 25%;
+  outline: 2px transparent var(--turq);
+}
+
+.footer-section {
+  padding: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--vscode);
+  color: var(--blueish);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

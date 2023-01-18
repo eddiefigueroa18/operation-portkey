@@ -1,11 +1,11 @@
 import React from "react";
-import githubLogo from "../../assets/Github Logo";
-import weatherDashPhoto from "../../assets/weather-logo";
-import passwordGenPhoto from "../../assets/lock";
-import iteneraryPhoto from "../../assets/itenerary-logo";
-import noteTakerPhoto from "../../assets/note-taker";
-import javaQuizPhoto from "../../assets/java-quiz";
-import showHeroPhoto from "../../assets/favicon";
+import githubLogo from "../../assets/Github-Logo.png";
+import weatherDashPhoto from "../../assets/weather-logo.png";
+import passwordGenPhoto from "../../assets/lock.png";
+import iteneraryPhoto from "../../assets/itenerary-logo.png";
+import noteTakerPhoto from "../../assets/note-taker.png";
+import javaQuizPhoto from "../../assets/java-quiz.png";
+import showHeroPhoto from "../../assets/favicon.png";
 
 
 
