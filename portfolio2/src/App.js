@@ -1,19 +1,19 @@
 // import logo from './logo.svg';
 // import './App.css';
-import react from "react";
+import React from "react";
 
-import navbar from "../src/components/navbar";
-import header from "../src/components/header";
-import aboutMe from "../src/components/pages/about";
-import footer from "../src/components/footer";
+import Navbar from "../src/components/navbar";
+import Header from "../src/components/header";
+import About from "../src/components/pages/about";
+import Footer from "../src/components/footer";
 
 function App () {
     return (
         <div className="Application">
-            <navbar />
-            <header />
-            <aboutMe />
-            <footer />
+            <Navbar />
+            <Header />
+            <About />
+            <Footer />
         </div>
     );
 }
