@@ -21,7 +21,7 @@ const myWork = () => {
                 <a href="https://eddiefigueroa18.github.io/operation-nimbus/" target="blank" className="weatherIcon">
                     <img src={weatherDashPhoto} alt="Image of weather forecast symbol (sun and clouds)" />
                 </a>
-                <a href="https://github.com/eddiefigueroa18/operation-nimbus" id="githubLogos" className="work1Github" target="blank">
+                <a href="https://github.com/eddiefigueroa18/operation-nimbus" id="githubLogo" className="work1Github" target="blank">
                     <img src={githubLogo} />
                 </a>
             </div>
