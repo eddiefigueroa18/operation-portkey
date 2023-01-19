@@ -19,7 +19,7 @@ export default function ContactSection(mrPresident) {
     //Sets the message requiring user input in each field
     function requireField(e) {
         if(!e.target.value) {
-            setErrorMessage(e.target.name + "This field is required");
+            setErrorMessage(e.target.name + "  field is required");
         }
     };
 

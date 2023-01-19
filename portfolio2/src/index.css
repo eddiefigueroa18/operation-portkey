@@ -21,12 +21,14 @@ body {
   justify-content: center;
 
 }
-#root{
+
+
+/* #root{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -44,10 +46,11 @@ code {
 
 .headerSection {
   padding-top: 15px;
-  margin-right: 20px;
-  float: right;
+  margin: 20px;
+  /* float: right; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 25px;
+  text-align: center;
 }
 
 .headerList {
@@ -57,19 +60,22 @@ code {
 .nav-item {
   display: inline-block;
   margin-left: 25px;
-  border:5px solid rgba(52, 2, 192, 0.18);
+  border:3px solid cyan;
   border-radius: 10px;
   color:cyan;
+  background-color: var(--vscode);
+  padding: 5px
 }
 
 
 /* ====================== AboutMe Section =======================*/
 
 .aboutMeHeader {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
 }
 
 
@@ -85,10 +91,10 @@ code {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
-  border:5px solid rgba(52, 2, 192, 0.18);
+  border:7px solid rgba(52, 2, 192, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  margin-left: 46%;
-  margin-right: 50%;
+  /* margin-left: 46%;
+  margin-right: 50%; */
 }
 
 
@@ -98,7 +104,7 @@ code {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(52, 2, 192, 0.18));
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
   border:2px solid rgba(255, 255, 255, 0.18);
@@ -143,6 +149,16 @@ code {
   text-align: center;
 }
 
+.workInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+  font-size: 18px;
+}
+
 #workSectionImageLinks {
   display: flex;
   flex-wrap: wrap;
@@ -163,6 +179,10 @@ code {
 
 #workTitles {
   margin: 10px;
+}
+
+#iconicIcon {
+  margin: 5px;
 }
 
 /* 1 */
@@ -254,21 +274,76 @@ code {
 
 /* =========================== RESUME ============================ */
 
-.resumePdfSection{
-  height: 50px;
-  width: 40px;
+.resumeHeader {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resumeDesc {
+  text-align: center;
 }
 
 .resume-pdf {
-  height: 25px;
-  width: 20px;
+  text-align: center;
+  margin: 15px;
 }
 
 .pdfImage {
-  height: 25px;
-  width: 20px;
+  height: 40px;
+  width: 35px;
 }
 
+.skillSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skillSectionFront {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(6, 250, 230, 0.222), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.skillSectionBack {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(6, 250, 230, 0.222));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.skillListFront {
+  list-style-type: none;
+  text-align: center;
+}
+
+.skillListBack {
+  list-style-type: none;
+  text-align: center;
+}
 /* ==================== Footer section ====================== */
 
 
@@ -333,6 +408,53 @@ code {
   border-radius: 25%;
   outline: 2px transparent var(--turq);
 }
+
+/* =============================== Contact ===================================== */
+
+
+.contactMeHeader {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(52, 2, 192, 0.18));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 15px;
+}
+
+.nameInput {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.emailInput {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.messageInput {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.submit-button {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: aqua;
+  font-size: 15px;
+}
+
 /* =============== media queries for different screen sizes ======================*/
 
 @media screen and (minwidth: 992px) {
