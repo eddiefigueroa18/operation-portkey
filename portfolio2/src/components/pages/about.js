@@ -4,9 +4,10 @@ import profilePic from "../../assets/Selfie.jpg";
 const aboutMe = () => {
     return (
         <section className='aboutMeSection'>
-        <h2 className='aboutMeHeader'>About Me</h2>
+        
             <img src={ profilePic } className='aboutMeSelfie' alt="Photo of Eduardo Figueroa"></img>
             <div className='mainContent'>
+                <h2 className='aboutMeHeader'>About Me</h2>
                 <p className='HelloWelcome'>Hello and Welcome!</p>
                 <p className='IntroParagraph'>
                 <br /><br />

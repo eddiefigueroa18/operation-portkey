@@ -79,7 +79,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={name}
-                name="Name"
+                name="name"
                 type="text"
                 placeholder="Your name"
                 />

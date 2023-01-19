@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
 }
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,8 +18,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
+:root {
+  --vscode: #252934;
+  --turq: rgb(27, 141, 141);
+  --blueish: #103e6c;
+}
 
 
 /* .body-main {
@@ -31,24 +36,14 @@ code {
   background-image: url("../src/assets/mountain.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
- */
-
-:root {
-  --vscode: #252934;
-  --turq: rgb(27, 141, 141);
-  --blueish: #1c9690;
-}
+} */
 
 
 
 
 
+/* ===================== Header Section ===========================*/
 
-
-
-
-/* Header Section */
 .headerSection {
   padding-top: 15px;
   margin-right: 20px;
@@ -67,7 +62,8 @@ code {
 }
 
 
-/* AboutMe Section */
+/* ====================== AboutMe Section =======================*/
+
 /* .aboutMeSection {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +90,8 @@ code {
   background-image: url("../src/assets/Selfie.jpg");
   box-shadow: 0 0 10px var(--vscode);
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -122,11 +120,20 @@ code {
 
 
 
+/* ======================= RESUME =========================== */
+
+/* .resumePdfSection{
+  height: 50px;
+  width: 40px;
+}
+
+.resume-pdf {
+  height: 25px;
+  width: 20px;
+} */
 
 
-
-
-/* Footer section  */
+/* ==================== Footer section ====================== */
 
 /* .flex-contact-links {
   display: flex;
@@ -151,9 +158,9 @@ code {
   margin: 6px;
   border-radius: 25%;
   outline: 2px transparent var(--turq);
-}
+} */
 
-.footer-section {
+/* .footer-section {
   padding: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--vscode);
@@ -161,4 +168,27 @@ code {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.githubFooter {
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+}
+
+.linkedFooterLogo {
+  width: 10px;
+  height: 10px;
+  padding: 5px
+}
+
+
+
+/* =============== media queries for different screen sizes ======================*/
+
+/* @media screen and (minwidth: 992px) {
+    .flex-image-links {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 } */
