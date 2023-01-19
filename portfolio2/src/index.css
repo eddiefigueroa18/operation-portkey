@@ -1,45 +1,33 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   /* background-repeat: no-repeat; */
 }
 
-/* body {
-  margin: 0;
+body {
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/assets/mountain.png");
+  background-size:cover;
+  background-repeat: no-repeat;
 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
 
 :root {
   --vscode: #252934;
   --turq: rgb(27, 141, 141);
   --blueish: #103e6c;
 }
-
-
-/* .body-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5%;
-  margin-top: auto;
-  background-image: url("../src/assets/mountain.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
-
 
 
 /* ===================== Header Section ===========================*/
@@ -59,17 +47,13 @@ code {
 .nav-item {
   display: inline-block;
   margin-left: 25px;
+  border:5px solid rgba(52, 2, 192, 0.18);
+  border-radius: 10px;
+  color:cyan;
 }
 
 
 /* ====================== AboutMe Section =======================*/
-
-/* .aboutMeSection {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-} */
 
 .aboutMeHeader {
   display: flex;
@@ -80,28 +64,39 @@ code {
 
 
 .aboutMeSelfie {
-  padding: 30px;
   height: 275px;
   width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
   background-image: url("../src/assets/Selfie.jpg");
-  box-shadow: 0 0 10px var(--vscode);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:5px solid rgba(52, 2, 192, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin: auto;
 }
 
 
-/* .mainContent {
+.mainContent {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-} */
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 15px;
+}
 
 
 .HelloWelcome {
@@ -109,20 +104,23 @@ code {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  font-size: 30px;
 }
 
-.IntroParagaph {
+.IntroParagraph {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: center;
+  font-size: 25px;
 }
+
 
 
 
 /* ======================= RESUME =========================== */
 
-/* .resumePdfSection{
+.resumePdfSection{
   height: 50px;
   width: 40px;
 }
@@ -130,17 +128,59 @@ code {
 .resume-pdf {
   height: 25px;
   width: 20px;
-} */
+}
 
+.pdfImage {
+  height: 25px;
+  width: 20px;
+}
 
 /* ==================== Footer section ====================== */
 
-/* .flex-contact-links {
+
+
+
+
+/* .footer-section {
+  padding: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--vscode);
+  color: var(--blueish);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.githubFooterLogo {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.linkedFooterLogo {
+   width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.instaFooterLogo {
+    width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.gmailFooterLogo {
+ width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.flex-contact-links {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 15px;
-  margin: 15px;
+  margin-bottom: ;
   justify-content: center;
 }
 
@@ -159,38 +199,18 @@ code {
   border-radius: 25%;
   outline: 2px transparent var(--turq);
 }
-
-
-
-.footer-section {
-  padding: 25px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--vscode);
-  color: var(--blueish);
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* .githubFooter {
-  width: 10px;
-  height: 10px;
-  padding: 5px;
-}
-
-.linkedFooterLogo {
-  width: 10px;
-  height: 10px;
-  padding: 5px
-} */
-
-
-
 /* =============== media queries for different screen sizes ======================*/
 
-/* @media screen and (minwidth: 992px) {
+@media screen and (minwidth: 992px) {
     .flex-image-links {
         flex: 0 0 50%;
         max-width: 50%;
     }
-} */
+}
+
+@media screen and (minwidth: 992px) {
+    .mainContent {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

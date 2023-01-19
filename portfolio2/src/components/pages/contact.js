@@ -10,11 +10,11 @@ export default function ContactSection(mrPresident) {
 
 
 
-    const [toSend, setToSend] = useState({
-        email: '',
-        name: '',
-        message: '',
-    });
+    // const [toSend, setToSend] = useState({
+    //     email: '',
+    //     name: '',
+    //     message: '',
+    // });
 
     //Sets the message requiring user input in each field
     function requireField(e) {
@@ -26,7 +26,7 @@ export default function ContactSection(mrPresident) {
     //Set the name and the value for what exactly caused the change.
     const handleInputChange = (e) => {
         const { name, value, } = e.target;
-        setToSend({ ...toSend, [e.target.name]: e.target.value });
+        // setToSend({ ...toSend, [e.target.name]: e.target.value });
 
         if (name === "name") {
             setName(value);
@@ -79,7 +79,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={name}
-                // name="name"
+                name="name"
                 type="text"
                 placeholder="Your name"
                 />
@@ -91,7 +91,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={email}
-                // name="email"
+                name="email"
                 type="text"
                 placeholder="Email"
                 />
@@ -103,7 +103,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={message}
-                // name="message"
+                name="message"
                 type="text"
                 placeholder="Type your message here"
                 />

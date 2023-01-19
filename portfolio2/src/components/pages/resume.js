@@ -10,7 +10,7 @@ export default function Resume() {
             <h2 className="resumeHeader"></h2>
                 <div className="resume-pdf">
                     <a href={ResumePdf}>
-                        <img src={pdfImage} alt="Image of PDF"></img> 
+                        <img className="pdfImage" src={pdfImage} alt="Image of PDF"></img> 
                     </a>
                 </div>
         </section>
