@@ -37,7 +37,7 @@ code {
 :root {
   --vscode: #252934;
   --turq: rgb(27, 141, 141);
-  --blueish: #24417e;
+  --blueish: #1c9690;
 }
 
 
@@ -128,7 +128,7 @@ code {
 
 /* Footer section  */
 
-.flex-contact-links {
+/* .flex-contact-links {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -161,4 +161,4 @@ code {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
+} */

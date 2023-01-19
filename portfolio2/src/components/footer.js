@@ -7,6 +7,8 @@ import IgLogo from "../assets/IG-logo.png";
 
 
 
+
+
 function Footer() {
     return (
         <footer className="flex-contact-links">
@@ -41,7 +43,35 @@ function Footer() {
             <h3 className="footer-section">Eduardo Figueroa &copy;2023</h3>
 
         </footer>
+             
     );
 }
 
 export default Footer;
+
+
+
+//  <footer className="text-center text-white" style={{backgroundColor: '#252934'}}>
+//             <div className="container pt-4">
+//                 <section className="mb-4">
+//                     <a
+//                         className="btn text-white btn-floating m-1"
+//                         style={{backgroundColor: '1c9690'}}
+//                         href="mailto:eddiefigueroa18@gmail.com"
+//                         target='_blank'
+//                         role="button"
+//                         ><i class="bi bi-google"></i>
+//                     </a>
+//                     <a
+//                         className="btn text-white btn-floating m-1"
+//                         style={{backgroundColor: '187841'}}
+//                         href="https://www.linkedin.com/in/eduardo-figueroa-93b425235/"
+//                         target='_blank'
+//                         role="button"
+//                         ><i class="bi bi-linkedin"></i>
+//                     </a>
+
+
+//                 </section>
+//             </div>
+//         </footer>  
