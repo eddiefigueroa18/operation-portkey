@@ -15,7 +15,17 @@ body {
   background-image: url("../src/assets/mountain.png");
   background-size:cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 
+}
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 code {
@@ -77,7 +87,8 @@ code {
   -webkit-backdrop-filter: blur(10px);
   border:5px solid rgba(52, 2, 192, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  margin: auto;
+  margin-left: 46%;
+  margin-right: 50%;
 }
 
 
@@ -115,10 +126,133 @@ code {
   font-size: 25px;
 }
 
+/* ========================= PORTFOLIO =========================== */
+
+/* .myWorkSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+} */
+
+.myWorkHeader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+}
+
+#workSectionImageLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+#workTitles {
+  margin: 10px;
+}
+
+/* 1 */
+.work1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weatherIcon {
+  height: 100px;
+}
+
+
+/* 2 */
+
+.work2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.passwordIcon {
+  height: 100px;
+}
 
 
 
-/* ======================= RESUME =========================== */
+/* 3 */
+.work3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iteneraryIcon {
+  height: 100px;
+}
+
+
+
+/* 4 */
+.work4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.noteTakerIcon {
+  height: 100px;
+}
+
+
+
+/* 5 */
+.work5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.JavaIcon {
+  height: 100px;
+}
+
+
+/* 6 */
+.work6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.showHeroIcon {
+  height: 100px;
+}
+
+#githubLinks {
+  color: cyan;
+  margin: 10px;
+  text-align: center;
+}
+
+/* =========================== RESUME ============================ */
 
 .resumePdfSection{
   height: 50px;
