@@ -2,18 +2,16 @@
 // import './App.css';
 import React from "react";
 
-import Navbar from "../src/components/navbar";
+import Navbars from "./components/PortfolioContainerPage";
 import Header from "../src/components/header";
 import About from "../src/components/pages/about";
 import Footer from "../src/components/footer";
+import PortfolioContainer from "./components/PortfolioContainerPage";
 
-function App () {
+function App() {
     return (
         <div className="Application">
-            <Navbar />
-            <Header />
-            <About />
-            <Footer />
+            <Navbars />
         </div>
     );
 }

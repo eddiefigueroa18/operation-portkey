@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 /* body {
@@ -158,9 +158,11 @@ code {
   margin: 6px;
   border-radius: 25%;
   outline: 2px transparent var(--turq);
-} */
+}
 
-/* .footer-section {
+
+
+.footer-section {
   padding: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--vscode);
@@ -170,7 +172,7 @@ code {
   margin-right: auto;
 } */
 
-.githubFooter {
+/* .githubFooter {
   width: 10px;
   height: 10px;
   padding: 5px;
@@ -180,7 +182,7 @@ code {
   width: 10px;
   height: 10px;
   padding: 5px
-}
+} */
 
 
 

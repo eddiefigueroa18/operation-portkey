@@ -3,13 +3,15 @@
 import React, { useState } from "react";
 
 import About from "./pages/about";
-import Portfolio from "../components/pages/portfolio"
-import Resume from "../components/pages/resume";
-import Contact from "../components/pages/contact";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Portfolio from "./pages/portfolio"
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
+import Header from "./header";
+import Footer from "./footer";
 
-export default function PortfolioContainer () {
+
+
+export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
 
 

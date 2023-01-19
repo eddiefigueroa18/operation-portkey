@@ -19,7 +19,7 @@ export default function ContactSection(mrPresident) {
     //Sets the message requiring user input in each field
     function requireField(e) {
         if(!e.target.value) {
-            setErrorMessage(e.target.name + " This field is required");
+            setErrorMessage(e.target.name + "This field is required");
         }
     };
 
@@ -79,7 +79,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={name}
-                name="name"
+                // name="name"
                 type="text"
                 placeholder="Your name"
                 />
@@ -91,9 +91,9 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={email}
-                name="email"
+                // name="email"
                 type="text"
-                placeholder="email"
+                placeholder="Email"
                 />
                 <br />
 
@@ -103,7 +103,7 @@ export default function ContactSection(mrPresident) {
                 onChange={handleInputChange}
                 onBlur={requireField}
                 value={message}
-                name="message"
+                // name="message"
                 type="text"
                 placeholder="Type your message here"
                 />
