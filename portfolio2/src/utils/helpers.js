@@ -4,5 +4,10 @@ export function validateEmail(email) {
 }
 
 export function validateName(name) {
-    
+    const nameRegex = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{1,}$/;
+    if (name.match(nameRegex)) {
+        return true;
+    }
+    return false;
 }
+
