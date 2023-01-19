@@ -11,3 +11,10 @@ export function validateName(name) {
     return false;
 }
 
+export function validateMessage(message) {
+    const messageRegex = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{5,}$/;
+    if (message.match(messageRegex)) {
+        return true;
+    }
+    return false;
+}
