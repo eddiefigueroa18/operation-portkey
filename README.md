@@ -11,7 +11,7 @@ A Simple Portfolio Using React
 Please visit the website for the deployed application below or visit the source code from github. 
 
 ## Usage 
-Deployed Application: 
+Deployed Application:  https://eddiefigueroa18.github.io/operation-portkey/
 
 Screenshot:
 ![](./src/assets/web-scrn.png)
