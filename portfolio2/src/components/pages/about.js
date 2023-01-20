@@ -4,9 +4,9 @@ import profilePic from "../../assets/Selfie.jpg";
 const aboutMe = () => {
     return (
         <section className='FlexAboutMeSection'>
-           
-            <img src={ profilePic } className='aboutMeSelfie' alt="Photo of Eduardo Figueroa"></img>
             <h2 className='aboutMeHeader'>About Me</h2>
+            <img src={ profilePic } className='aboutMeSelfie' alt="Photo of Eduardo Figueroa"></img>
+           
             <div className='mainContent'>
                  
                     <p className='HelloWelcome'>Hello and Welcome!</p>

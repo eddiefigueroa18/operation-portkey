@@ -37,8 +37,8 @@ function Footer() {
                     <img className="gmailFooterLogo" src={gmailLogo} alt="Gmail Logo" />
                 </a>
             </div>
-            {/* 
-            <h3 className="footer-section">Eduardo Figueroa &copy;2023</h3> */}
+            
+            {/* <h3 className="footer-section">Eduardo Figueroa &copy;2023</h3> */}
 
         </footer>
 

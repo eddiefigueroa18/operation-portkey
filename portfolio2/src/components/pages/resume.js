@@ -11,7 +11,7 @@ export default function Resume() {
             <p className="resumeDesc">Click PDF to open resume</p>
 
                 <div className="resume-pdf">
-                    <a href={ResumePdf}>
+                    <a href={ResumePdf} target="blank">
                         <img className="pdfImage" src={pdfImage} alt="Image of PDF"></img> 
                     </a>
                 </div>
@@ -28,7 +28,7 @@ export default function Resume() {
                             <li>Responsive Design</li>
                         </ul>
                     </p>
-                    
+
                     <p className="skillSectionBack">
                         <h3 className="backEndTitle">Back End</h3>
                         <ul className="skillListBack">

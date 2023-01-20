@@ -1,11 +1,11 @@
 import React from "react";
 import githubLogo from "../../assets/Github-Logo.png";
-import weatherDashPhoto from "../../assets/weather-logo.png";
-import passwordGenPhoto from "../../assets/lock.png";
-import iteneraryPhoto from "../../assets/itenerary-logo.png";
-import noteTakerPhoto from "../../assets/note-taker.png";
-import javaQuizPhoto from "../../assets/java-quiz.png";
-import showHeroPhoto from "../../assets/favicon.png";
+import weatherDashPhoto from "../../assets/weather-scrn.png";
+import passwordGenPhoto from "../../assets/safe-scrn.png";
+import iteneraryPhoto from "../../assets/iten-scrn.png";
+import trivialogo from "../../assets/big-scrn.png";
+import javaQuizPhoto from "../../assets/java-scrn.png";
+import showHeroPhoto from "../../assets/show-scrn.png";
 
 
 
@@ -55,13 +55,12 @@ const myWork = () => {
 
 
             {/* ========================= FOUR ======================== */}
-            {/* THIS WEBSITE NEEDS TO BE FIXED ON HEROKU */}
             <li className="work4" id="workSectionImageLinks">
-                <h3 className="workTitle4" id="workTitles">Note Taker App</h3>
-                <a href="https://eddiefigueroa18.github.io/operation-itenerary/" target="blank" >
-                    <img className="noteTakerIcon" id="iconicIcon" src={noteTakerPhoto} alt="Image of sticky notes with pencil on top" />
+                <h3 className="workTitle4" id="workTitles">Trivia Quiz app</h3>
+                <a href="https://big-bad-brain-blender-buster.herokuapp.com/" target="blank" >
+                    <img className="triviaIcon" id="iconicIcon" src={trivialogo} alt="Image of trivia board with question marks" />
                 </a>
-                <a href="https://github.com/eddiefigueroa18/operation-wordsmith" id="githubLinks"  target="blank">Github Repository
+                <a href="https://github.com/samlee088/Big-Bad-Brain-Blender-Buster" id="githubLinks"  target="blank">Github Repository
                     {/* <img className="work4Github" src={githubLogo} /> */}
                 </a>
             </li>
