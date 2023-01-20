@@ -14,7 +14,7 @@ Please visit the website for the deployed application below or visit the source 
 Deployed Application: 
 
 Screenshot:
-![](./portfolio2/src/assets/web-scrn.png)
+![](./src/assets/web-scrn.png)
 
 
 
