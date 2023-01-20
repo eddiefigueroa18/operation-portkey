@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/operation-portkey/static/css/main.63fc21ea.css",
+    "main.js": "/operation-portkey/static/js/main.59b67583.js",
+    "static/js/787.1297335f.chunk.js": "/operation-portkey/static/js/787.1297335f.chunk.js",
+    "static/media/mountain.png": "/operation-portkey/static/media/mountain.ce356e34116d9f50f26c.png",
+    "static/media/weather-scrn.png": "/operation-portkey/static/media/weather-scrn.31861ff52d7964f78ab3.png",
+    "static/media/big-scrn.png": "/operation-portkey/static/media/big-scrn.59b1f649b33081409bb1.png",
+    "static/media/Selfie.jpg": "/operation-portkey/static/media/Selfie.fc2c3241279cd76e1ed7.jpg",
+    "static/media/IG-logo.png": "/operation-portkey/static/media/IG-logo.abced1a115ac65261348.png",
+    "static/media/Github-Logo.png": "/operation-portkey/static/media/Github-Logo.18e17ee7769ee003acde.png",
+    "static/media/show-scrn.png": "/operation-portkey/static/media/show-scrn.11481b0cad692c6d1728.png",
+    "static/media/Eduardo-Figueroa-Resume.pdf": "/operation-portkey/static/media/Eduardo-Figueroa-Resume.fdc29bcecfecaeab5fe4.pdf",
+    "static/media/Linked.png": "/operation-portkey/static/media/Linked.7fd83a620a57a9b5b259.png",
+    "static/media/pdf-icon.png": "/operation-portkey/static/media/pdf-icon.5444c75cfdc1dc88f9bd.png",
+    "static/media/iten-scrn.png": "/operation-portkey/static/media/iten-scrn.ef6322da21053678541f.png",
+    "static/media/safe-scrn.png": "/operation-portkey/static/media/safe-scrn.849f6dedd6118fa55177.png",
+    "static/media/java-scrn.png": "/operation-portkey/static/media/java-scrn.f933131f41c5808b8378.png",
+    "index.html": "/operation-portkey/index.html",
+    "main.63fc21ea.css.map": "/operation-portkey/static/css/main.63fc21ea.css.map",
+    "main.59b67583.js.map": "/operation-portkey/static/js/main.59b67583.js.map",
+    "787.1297335f.chunk.js.map": "/operation-portkey/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63fc21ea.css",
+    "static/js/main.59b67583.js"
+  ]
+}
